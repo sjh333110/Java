@@ -8,7 +8,7 @@ public class Demo1_Map {
     public static void main(String[] args) {
         //demo1();
         //demo2();
-        Map<String,Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<String,Integer>();
         mp.put("zhangsan",23);
         mp.put("lisi",24);
         mp.put("wangwu",25);
@@ -20,7 +20,7 @@ public class Demo1_Map {
     }
 
     private static void demo2() {
-        Map<String,Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<String,Integer>();
         mp.put("zhangsan",23);
         mp.put("lisi",24);
         mp.put("wangwu",25);
@@ -34,7 +34,7 @@ public class Demo1_Map {
     }
 
     private static void demo1() {
-        Map<String,Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<String,Integer>();
         mp.put("zhagnsan",23);
         mp.put("lisi",24);
         mp.put("wangwu",25);

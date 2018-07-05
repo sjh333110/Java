@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class Demo3_Iterator {
     public static void main(String[] args) {
-        Map<String,Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<String,Integer>();
         mp.put("zhangsan",23);
         mp.put("lisi",24);
         mp.put("wangwu",25);
